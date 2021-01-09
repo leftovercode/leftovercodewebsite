@@ -46,9 +46,9 @@
 						<header>
 							<h2>Resume</h2>
 						</header>
-							<center>
-								<embed type="application/pdf" src="Resume - Jason Perez.pdf" width="1010px" height="1200px">
-							</center>
+						<div id="example1"></div>
+						<script src="assets/js/pdfobject.js"></script>
+						<script>PDFObject.embed("Resume - Jason Perez.pdf", "#example1", {height: "65rem"});</script>
 					</div>
 				</div>
 			</section>
@@ -92,6 +92,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
